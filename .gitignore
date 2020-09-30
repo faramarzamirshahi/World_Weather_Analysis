@@ -4,6 +4,10 @@ API_practice.ipynb
 random_numbers.ipynb
 test.ipynb
 TuesdayClass.ipynb
+Google_Nearby_Search.ipynb
+hotel.csv
+hotels.json
+.vscode/settings.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
