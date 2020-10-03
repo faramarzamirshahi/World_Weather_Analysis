@@ -2,7 +2,7 @@
 UofT Data Analytics project: PlanMyTrip app.
 
 # Overview
-The PlanMyTrip app creates a list of preferred destination based on the user's weather preference and finds the nearest hotel. In the beta tester the user will choose four cities to create a travel itinerary and the app will use Google Maps Jupyter API to display the travel route between the destinations as well as showing a marker for each city that provides the city, country, weather description, hotel and maximum temperature for each destination using.
+The PlanMyTrip app creates a list of preferred destination based on the user's weather preference and finds the nearest hotel. In the beta tester the user will choose four cities to create a travel itinerary and the app will use Google Maps Jupyter API to display the travel route between the destinations as well as a marker with city, country, weather description, hotel and maximum temperature information for each city.
 
 # Details
 
@@ -24,12 +24,12 @@ Finally we save this list as `WeatherPy_Database.csv` file.
 ## Weather_Search.ipynb
 
 We use the user's minimum and maximum temperature preferences to create a sub-list of cities.<br>
-We then get the nearest hotel (within 5 kilometers) using Google maps `nearbysearch` API and discard the records where a hotel is not found.<br>
+We then get the nearest hotel (within 5 kilometers) using Google maps `nearbysearch` API and discard the records where a hotel is not found. We save this list as a csv file.<br>
 We provide the hotel and weather information for each city using Google maps Jupyter `markup_layer`.
 
 ## Weather_Search.ipynb
 
-We choose 4 cities from the map created above.<br>
+We choose 4 cities from the list created above.<br>
 We then use the `(latitude,longitude)` of the cities to display the route between these cities using Google maps Jupyter API `directions_layer`<br>
 We provide the hotel and weather information for each city as markup in the map
 
