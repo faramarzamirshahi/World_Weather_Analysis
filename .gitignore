@@ -8,6 +8,7 @@ Google_Nearby_Search.ipynb
 hotel.csv
 hotels.json
 .vscode/settings.json
+Vacation_Search/Vacation_Search_Testing.ipynb
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
